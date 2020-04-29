@@ -1,0 +1,30 @@
+###get request
+GET http://localhost:3000/data
+
+### post request
+POST http://localhost:3000/data
+Content-Type: application/json
+
+{
+    "fname": "asadfka",
+    "lname": "abewfa",
+    "email": "aksdfsaa@asd.com",
+    "avatar": "adfsafdas"
+}
+
+###single id get request
+GET http://localhost:3000/data/5ea92f29a0428b29b466dd3c
+
+###single id Update request
+PATCH  http://localhost:3000/data/5ea9307c5e6e612408b423eas2
+Content-Type: application/json
+
+{
+    "avatar": "sadad"
+}
+
+###single id delete request
+DELETE  http://localhost:3000/data/5ea92f29a0428b29b466dd3a
+
+###single id get request
+GET http://localhost:3000/ 
